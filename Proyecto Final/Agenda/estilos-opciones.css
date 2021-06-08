@@ -1,0 +1,228 @@
+*{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+body{
+    background-image: url(neon.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.agregar{
+
+    width: 400px;
+    height: 500px;
+    border: 5px solid red;
+    margin:20px auto; 
+    position: relative;
+    top: 130px;
+    background-color: #000000;
+    opacity: 77%;
+
+    right:550px;
+}
+
+.agregar:hover{
+	border-color: #FFFFFF;
+}
+
+.agregar h2{
+	color: #FFFFFF;
+	position: relative;
+	left: 100px;
+}
+.agregar p{
+	color: white;
+	position: relative;
+	left: 110px;
+}
+
+.agregar input{
+	position: relative;
+	height: 20px;
+	left: 45px;
+	width: 80%;
+	display: flex;
+
+}
+
+.agregar button{
+	position: absolute;
+	left: 45px;
+	bottom: 10px;
+
+	cursor: pointer;
+}
+
+.buscar{
+    width: 420px;
+    height: 150px;
+    border: 5px solid green;
+    margin:20px auto; 
+    position: absolute;
+    bottom: 75px;
+    background-color: #000000;
+    opacity: 77%;
+
+    left:450px;
+}
+
+.buscar h2{
+	color: white;
+	text-align: center;
+}
+
+.buscar button{
+	position: absolute;
+	left: 45px;
+	width: 80%;
+	bottom: 10px;
+
+	cursor: pointer;
+}
+
+.buscar input{
+	position: relative;
+	left: 50px;
+	width: 78%;
+	padding: 5px;
+	height: 20px;
+	bottom: 10px;
+}
+
+
+.buscar:hover{
+	border-color: #FFFFFF;
+}
+
+.editar{
+    width: 420px;
+    height: 330px;
+    border: 5px solid blue;
+    margin:20px auto; 
+    position: absolute;
+    top: 130px;
+    background-color: #000000;
+    opacity: 77%;
+
+    left:450px;
+}
+
+.editar:hover{
+	border-color: #FFFFFF;
+}
+
+.editar h2, .editar h4{
+	color: white;
+	text-align: center;
+	background-color: none;
+}
+
+.editar button{
+	position: absolute;
+	left: 45px;
+	bottom: 10px;
+	width: 80%;
+
+	cursor: pointer;
+}
+
+.editar input{
+	position: relative;
+	height: 20px;
+	left: 45px;
+	width: 80%;
+	display: flex;
+
+}
+
+.ver{
+	position: relative;
+    width: 600px;
+    height: 500px;
+    border: 5px solid yellow;
+    margin:20px auto; 
+    position: absolute;
+    top: 130px;
+    background-color: #000000;
+    opacity: 77%;
+    left:900px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.ver button{
+	cursor: pointer;
+	position: absolute;
+
+	top: 80px;
+	left: 58px;
+	width: 80%;
+	padding: 5px;
+	height: 40px;
+}
+
+.ver h2{
+	color: #FFFFFF;
+	position: relative;
+	left: 235px;
+	top: 0px;
+}
+
+
+.ver:hover{
+	border-color: #FFFFFF;
+}
+
+.contactos {
+	position: relative;
+	background: yellow;
+	color: #000000;
+	height: 135px;
+	border-radius: 10px;
+	width: 80%;
+	margin-left: 10%;
+	font-size: 20px;
+	margin-top: 20px;
+	box-sizing: border-box;
+}
+
+/*.contactos:hover {
+	background: #fdb035;
+}*/
+
+
+.inputs > input {
+	position: relative;
+	border-radius: 10px;
+	text-align: center;
+	height: 20px;
+	font-weight: bold;
+	width: 80%;
+}
+
+.inputs > button {
+	margin-left: 10px;
+	margin-top: 20px;
+	background-color: #14251D;
+	border: 0px;
+	color: #FFFFFF;
+	width: 80%;
+	height: 30px;
+	border-radius: 20px;
+	font-weight: bolder;
+	cursor: pointer;
+}
+
+
+.agregar > .inputs > button:hover {
+	background: red;
+}
+
+.editar > .inputs > button:hover {
+	background: blue;
+}
+
+.buscar > .inputs > button:hover {
+	background: green;
+}

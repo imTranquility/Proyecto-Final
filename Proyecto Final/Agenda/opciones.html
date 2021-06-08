@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>M E N U</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="estilos-opciones.css">
+	<script src="funciones.js" async="true"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header></header>
+    
+    <div class="agregar">
+        <h2>Agregar contacto</h2>
+        <div class="inputs">
+            <input type="text" id="agregarNom" placeholder="Nombre"><br>
+            <input type="text" id="agregarNum" placeholder="Numero de telefono"><br>
+            <input type="email" id="agregarEmail" placeholder="Correo">
+            <br>
+            <button onclick="agregarContacto()">Agregar</button>
+        </div>
+    </div>
+    <div class="ver">
+        <h2>Ver contacto</h2>
+        <section class="contactos"></section>
+    </div>
+    <div class="buscar">
+        <h2>Buscar contacto</h2>
+        <div class="inputs">
+            <input type="text" id="buscarCon" placeholder="Nombre del contacto">
+            <br>
+            <button onclick="buscarContacto()">Buscar</button>
+        </div>
+    </div>
+    <div class="editar">
+        <h2>Editar contacto</h2>
+        <div class="inputs">
+            <input type="text" id="editarCon" placeholder="Nombre anterior">
+            <!-- <br> -->
+            <h4>Nuevos datos</h4>
+            <input type="text" id="nuevoNombre" placeholder = "Nuevo nombre"><br>
+            <input type="text" id="nuevoTel" placeholder = "Nuevo Numero"><br>
+            <input type="text" id="nuevoCorr" placeholder = "Nuevo correo"><br>
+            <button onclick="editarContacto()">Actualizar</button>
+        </div>
+    </div>
+</body>
+</html>

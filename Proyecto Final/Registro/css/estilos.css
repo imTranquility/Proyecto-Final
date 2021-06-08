@@ -1,0 +1,90 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+body{
+	background-image: url(../img/Tokyo.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 0;
+	height: 100vh;
+}
+
+.container{
+	width: 100%;
+	height: 100vh;
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.login-contenedor{
+	display: flex;
+	width: 650px;
+	height: auto;
+	box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, .2);
+}
+
+.datos, .login{
+	flex: 1;
+}
+
+.datos{
+	padding: 40px;
+	position: relative;
+	background: #FF0033;
+	opacity: 77%;
+	border-color: black;
+}
+
+.datos h1{
+	margin-top: 80px;
+	text-align: center;
+	color: #FFF;
+}
+
+.datos h4{
+	text-align: center;
+	color: #FFF;
+	margin-bottom: 25px;
+}
+
+.login input{
+	width: 80%;
+	padding: 5px;
+	font-size: 16px;
+	margin-bottom: 25px;
+}
+
+.login button{
+	width: 80%;
+	padding: 5px;
+	font-size: 16px;
+	color: #FFF;
+	border-color: #FFF;
+	background: #FF0033;
+	margin-bottom: 25px;
+	cursor: pointer;
+}
+
+.login{ 
+	padding-left: 50px;
+	background: #49ffd1;
+	opacity: 77%;
+	border-color: black;
+}
+
+.login img{
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	display: block;
+	margin: 75px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	cursor: pointer;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>C A L C U L A D O R A</title>
+	<link rel="stylesheet" type="text/css" href="estilos.css">
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/c6b52fe46b.js" crossorigin="anonymous"></script>
+	<script src="funciones.js" async="true"></script>
+</head>
+<body>
+		<div id="calculadora">
+		
+			<div id="pantalla">
+				<div class="modo">
+					<button onclick="claro()"><i id="bc" class="fas fa-sun"></i></button>
+					<button onclick="oscuro()"><i id="bo" class="fas fa-moon activo"></i></button>
+				</div>
+
+				<div id="pantalla1"></div>
+				<div id="pantalla2"></div>
+			</div>
+
+			<div class="botones">
+
+				<div class="boton sinmargen borrar" onclick="borrar()">C</div>
+				<div class="boton"></div>
+				<div class="boton"></div>
+				<div class="boton operador" onclick="agregar('/')">/</div>
+
+				<div class="boton sinmargen" onclick="agregar(7)">7</div>
+				<div class="boton" onclick="agregar(8)">8</div>
+				<div class="boton" onclick="agregar(9)">9</div>
+				<div class="boton operador" onclick="agregar('*')">X</div>
+
+				<div class="boton sinmargen" onclick="agregar(4)">4</div>
+				<div class="boton" onclick="agregar(5)">5</div>
+				<div class="boton" onclick="agregar(6)">6</div>
+				<div class="boton operador" onclick="agregar('-')">-</div>
+
+				<div class="boton sinmargen" onclick="agregar(1)">1</div>
+				<div class="boton" onclick="agregar(2)">2</div>
+				<div class="boton" onclick="agregar(3)">3</div>
+				<div class="boton operador" onclick="agregar('+')">+</div>
+
+				<div class="boton sinmargen" onclick="agregar(0)">0</div>
+				<div class="boton"></div>
+				<div class="boton" onclick="agregar('.')">.</div>
+				<div class="boton" id="igual" onclick="resultado()">=</div>
+
+			</div>
+		</div>
+</body>
+</html>
