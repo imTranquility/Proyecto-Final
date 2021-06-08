@@ -1,0 +1,324 @@
+*{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+body{
+	background-color: #707070;
+	overflow: hidden;
+}
+
+body : hover{
+		color: rgba(122, 149, 167, 1);
+}
+.facu{
+	position: absolute;
+	width: 88px;
+	height: 743px;
+	left: 330px;
+	top: 0%;
+}
+
+.facu #FIF{
+	position: relative;
+	width:  70px;
+	left: 13px;
+	top: 5px;
+}
+
+.facu #uaq{
+	position: absolute;
+	width:  70px;
+	left: 13px;
+	bottom: 0px;
+}
+
+.facu #Troyano{
+
+	position: absolute;
+	width:  70px;
+	left: 20.5px;
+	bottom: 330px;
+	transform: scale(1.5);
+}
+
+
+
+.separacion-izquierda{
+	position: absolute;
+	width: 320px;
+	height: 743px;
+	border: 5px solid black;
+	left: 0%;
+	top: 0%;
+	background-color: black;
+
+}
+
+.separacion-derecha{
+	position: absolute;
+	width: 1100px;
+	height: 743px;
+	border: 5px solid black;
+	right: 0%;
+	top: 0%;
+	/*background-color: blue;*/
+	background-image: url(img/sw.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+}
+
+
+.sithimg{
+	position: relative;
+	bottom: 215px;
+	transform: rotate(90deg) scale(0.6);
+	left: -20px;
+	opacity: 50%;
+}
+
+#beto{
+	position: absolute;
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	cursor: pointer;
+	left: 78.85px;
+	top: 20px;
+}
+
+#beto:hover{
+	opacity: 0.9;
+	transition: 0.1s;
+}
+
+#logo{
+	position: absolute;
+	height: 120px;
+	width: 120px;
+	border-radius: 55%;
+	left: 100px;
+}
+
+.act2 > #twitter{
+	position: absolute;
+	left: 100px;
+	font-weight: 100;
+	color: #00ACEE;
+	font-size: 100px;
+}
+
+.act7 > #agenda{
+	position: absolute;
+	left: 100px;
+	font-weight: 100;
+	color: #967441;
+	font-size: 100px;
+	top: 29%;
+}
+.act1 button, .act2 button, .act3 button, .act4 button,.act5 button, .act6 button, .act7 button{
+
+	position: absolute;
+	left: 50px;
+	bottom: 10%;
+	width: 70%;
+	height: 35px;
+	cursor: pointer;
+	background-color: #E0EC41;
+	border-radius: 20px;
+}
+
+.act1 button:hover, .act2 button:hover, .act3 button:hover, .act4 button:hover,.act5 button:hover, .act6 button:hover, .act7 button:hover{
+
+	border:8px;
+	border-color: #00FFDE;
+
+}
+.act1 a, .act2 a, .act3 a, .act4 a,.act5 a, .act6 a, .act7 a{
+
+	text-decoration: none;
+}
+
+.act1 h2:hover, .act2 h2:hover, .act3 h2:hover, .act4 h2:hover,.act5 h2:hover, .act6 h2:hover, .act7 h2:hover{
+
+	color: rgba(122, 149, 167, 1);
+}
+
+.act1:hover, .act2:hover, .act3:hover, .act4:hover,.act5:hover, .act6:hover, .act7:hover{
+	cursor: pointer;
+	border:5px solid red;
+}
+
+.separacion-izquierda h3{
+	position: absolute;
+	color: white;
+	top: 19%;
+	font-size: 35px;
+	left: 35px;
+}
+
+.separacion-izquierda h3:hover{
+	color: rgba(122, 149, 167, 1);
+}
+
+.separacion-izquierda h4{
+	position: absolute;
+	color: white;
+	top: 26%;
+	font-size: 25px;
+	left: 70px;
+}
+
+.separacion-izquierda h4:hover{
+	color: rgba(122, 149, 167, 1);
+}
+
+.separacion-izquierda h2{
+	position: absolute;
+	color: white;
+	bottom: 10%;
+	font-size: 25px;
+	left: 27px;
+}
+
+.separacion-izquierda h2:hover{
+	color: rgba(122, 149, 167, 1);
+}
+
+
+.act1{
+	position: absolute;
+	width: 300px;
+	height: 300px;
+	border: 5px solid black;
+	left: 50px;
+	top: 5%;
+	background-color: #000000;
+    opacity: 77%;
+}
+
+.act1 h2{
+	position: relative;
+	color: white;
+	text-align: center;
+}
+
+.act2{
+	position: absolute;
+	width: 300px;
+	height: 300px;
+	border: 5px solid black;
+	left: 400px;
+	top: 5%;
+	background-color: #000000;
+    opacity: 77%;
+}
+
+.act2 h2{
+	position: relative;
+	color: white;
+	text-align: center;
+}
+
+.act3{
+	position: absolute;
+	width: 300px;
+	height: 300px;
+	border: 5px solid black;
+	left: 750px;
+	top: 5%;
+	background-color: #000000;
+    opacity: 77%;
+}
+
+.act3 h2{
+	position: relative;
+	color: white;
+	text-align: center;
+}
+
+.act4{
+	position: absolute;
+	width: 300px;
+	height: 300px;
+	border: 5px solid black;
+	left: 50px;
+	bottom: 5%;
+	background-color: #000000;
+    opacity: 77%;
+}
+
+.act4 h2{
+	position: relative;
+	color: white;
+	text-align: center;
+}
+
+.act5{
+	position: absolute;
+	width: 300px;
+	height: 300px;
+	border: 5px solid black;
+	left: 400px;
+	bottom: 5%;
+	background-color: #000000;
+    opacity: 77%;
+}
+
+.act5 h2{
+	position: relative;
+	color: white;
+	text-align: center;
+}
+
+.act6{
+	position: absolute;
+	width: 300px;
+	height: 300px;
+	border: 5px solid black;
+	left: 750px;
+	bottom: 5%;
+	background-color: #000000;
+    opacity: 77%;
+}
+
+.act6 h2{
+	position: relative;
+	color: white;
+	text-align: center;
+}
+
+.act7{
+	position: absolute;
+	width: 300px;
+	height: 300px;
+	border: 5px solid black;
+	left: 1090px;
+	top: 5%;
+	background-color: #000000;
+    opacity: 77%;
+}
+
+.act7 h2{
+	position: relative;
+	color: white;
+	text-align: center;
+}
+
+/*.siguiente a{
+	color: solid black;
+	text-decoration: none;
+}
+
+.siguiente button{
+
+	position: absolute;
+	right: 30px;
+	bottom: 0%;
+	width: 8%;
+	height: 8%;
+	border-radius: 50%;
+	cursor: pointer;
+	background: #12EEDB;
+}*/
